@@ -3,10 +3,30 @@
     <title>dmaristem</title>
     <link href="https://dmaristem.github.io/feed.xml" rel="self" />
     <link href="https://dmaristem.github.io" />
-    <updated>1969-12-31T19:00:00-05:00</updated>
+    <updated>2019-11-17T23:18:09-05:00</updated>
     <author>
         <name>Maria Duong</name>
     </author>
     <id>https://dmaristem.github.io</id>
 
+    <entry>
+        <title>Where are Canada&#x27;s cleantech ventures?</title>
+        <author>
+            <name>Maria Duong</name>
+        </author>
+        <link href="https://dmaristem.github.io/where-are-canadas-cleantech-ventures.html"/>
+        <id>https://dmaristem.github.io/where-are-canadas-cleantech-ventures.html</id>
+
+        <updated>2019-11-17T23:12:10-05:00</updated>
+            <summary>
+                <![CDATA[
+                    Testing! But it's a legitimate future topic to write about.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                Testing! But it's a legitimate future topic to write about.
+            ]]>
+        </content>
+    </entry>
 </feed>
