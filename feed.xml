@@ -3,7 +3,7 @@
     <title>dmaristem</title>
     <link href="https://dmaristem.github.io/feed.xml" rel="self" />
     <link href="https://dmaristem.github.io" />
-    <updated>2019-11-19T00:49:30-05:00</updated>
+    <updated>2019-11-19T00:55:00-05:00</updated>
     <author>
         <name>Maria Duong</name>
     </author>
@@ -17,16 +17,14 @@
         <link href="https://dmaristem.github.io/pure-css-bicyclist-animation.html"/>
         <id>https://dmaristem.github.io/pure-css-bicyclist-animation.html</id>
 
-        <updated>2019-11-19T00:45:00-05:00</updated>
+        <updated>2019-11-19T00:54:10-05:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://dmaristem.github.io/media/posts/2/pure_css_bicyclist.png" alt="Pure CSS Art" />
                      See Codepen My first pure CSS animation! A loose HTML and&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://dmaristem.github.io/media/posts/2/pure_css_bicyclist.png" alt="Pure CSS Art" />
                 <p class="align-center"><img class="alignnone size-full wp-image-5709" src="https://odetostem.files.wordpress.com/2017/10/cycling.png" alt="Cycling" width="1763" height="847"></p>
 <p class="align-center">See <a href="https://codepen.io/dmaristem/full/RLeXXK/" target="_blank" rel="noopener noreferrer">Codepen</a></p>
 <p>My first pure CSS animation! A loose HTML and CSS translation of Dribble shot <a href="https://dribbble.com/shots/2572469-Cycling" target="_blank" rel="noopener noreferrer">"Cycling" by Moncho Massé</a>. I say 'loose' because it wasn't my original intention to do a graphic art to HTML/CSS translation - just wanted to use the warm, gorgeous color palette. Eventually decided to use the original work as replication practice. Based the wheels off of this flat illustration, gotten somewhere off Google Images :</p>
@@ -306,26 +304,6 @@ transform: translate(1, 2), rotate(50deg); 
 <li>Keep track of z-indices</li>
 </ul>
 <p> </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Where are Canada&#x27;s cleantech ventures?</title>
-        <author>
-            <name>Maria Duong</name>
-        </author>
-        <link href="https://dmaristem.github.io/where-are-canadas-cleantech-ventures.html"/>
-        <id>https://dmaristem.github.io/where-are-canadas-cleantech-ventures.html</id>
-
-        <updated>2019-11-17T23:12:10-05:00</updated>
-            <summary>
-                <![CDATA[
-                    Testing! But it's a legitimate future topic to write about.
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                Testing! But it's a legitimate future topic to write about.
             ]]>
         </content>
     </entry>
