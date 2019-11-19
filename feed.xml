@@ -3,7 +3,7 @@
     <title>dmaristem</title>
     <link href="https://dmaristem.github.io/feed.xml" rel="self" />
     <link href="https://dmaristem.github.io" />
-    <updated>2019-11-19T01:20:04-05:00</updated>
+    <updated>2019-11-19T01:28:36-05:00</updated>
     <author>
         <name>Maria Duong</name>
     </author>
@@ -17,18 +17,17 @@
         <link href="https://dmaristem.github.io/pure-css-bicyclist-animation.html"/>
         <id>https://dmaristem.github.io/pure-css-bicyclist-animation.html</id>
 
-        <updated>2019-11-19T01:19:52-05:00</updated>
+        <updated>2019-11-19T01:28:27-05:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://dmaristem.github.io/media/posts/2/css_cyclist.PNG" alt="" />
-                     See Codepen My first pure CSS animation! A loose HTML and&hellip;
+                     See Codepen My first pure CSS animation! A loose HTML and CSS&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <img src="https://dmaristem.github.io/media/posts/2/css_cyclist.PNG" alt="" />
-                <p class="align-center"> </p>
-<p class="align-center">See <a href="https://codepen.io/dmaristem/full/RLeXXK/" target="_blank" rel="noopener noreferrer">Codepen</a></p>
+                <p class="align-center"> See <a href="https://codepen.io/dmaristem/full/RLeXXK/" target="_blank" rel="noopener noreferrer">Codepen</a></p>
 <p>My first pure CSS animation! A loose HTML and CSS translation of Dribble shot <a href="https://dribbble.com/shots/2572469-Cycling" target="_blank" rel="noopener noreferrer">"Cycling" by Moncho Massé</a>. I say 'loose' because it wasn't my original intention to do a graphic art to HTML/CSS translation - just wanted to use the warm, gorgeous color palette. Eventually decided to use the original work as replication practice. Based the wheels off of this flat illustration, gotten somewhere off Google Images :</p>
 <p><img class="align-center" src="https://odetostem.files.wordpress.com/2017/10/white-bike.jpg?w=511" alt="white bike"></p>
 <h2 id="mcetoc_1dq12rgl50">Process:</h2>
