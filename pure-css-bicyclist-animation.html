@@ -1,0 +1,136 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Pure CSS: Bicyclist Animation - dmaristem</title><meta name="description" content="See Codepen My first pure CSS animation! A loose HTML and CSS&hellip;"><meta name="robots" content="index, follow"><meta name="generator" content="Publii Open-Source CMS for Static Site"><link rel="canonical" href="https://dmaristem.github.io/pure-css-bicyclist-animation.html"><link rel="alternate" type="application/atom+xml" href="https://dmaristem.github.io/feed.xml"><link rel="alternate" type="application/json" href="https://dmaristem.github.io/feed.json"><meta property="og:title" content="Pure CSS: Bicyclist Animation"><meta property="og:image" content="https://dmaristem.github.io/media/posts/2/pure_css_bicyclist.png"><meta property="og:site_name" content="dmaristem"><meta property="og:description" content="See Codepen My first pure CSS animation! A loose HTML and CSS&hellip;"><meta property="og:url" content="https://dmaristem.github.io/pure-css-bicyclist-animation.html"><meta property="og:type" content="article"><link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin><link href="https://fonts.googleapis.com/css?family=Heebo:400,500%7CPlayfair+Display:400&amp;display=swap" rel="stylesheet"><link rel="stylesheet" href="https://dmaristem.github.io/assets/css/style.css?v=19559834eb5eb8a961d5d04a374577c3"><script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://dmaristem.github.io/pure-css-bicyclist-animation.html"},"headline":"Pure CSS: Bicyclist Animation","datePublished":"2019-11-19T00:45","dateModified":"2019-11-19T00:45","image":{"@type":"ImageObject","url":"https://dmaristem.github.io/media/posts/2/pure_css_bicyclist.png","height":327,"width":680},"description":"See Codepen My first pure CSS animation! A loose HTML and CSS&hellip;","author":{"@type":"Person","name":"Maria Duong"},"publisher":{"@type":"Organization","name":"Maria Duong"}}</script><script async src="https://dmaristem.github.io/assets/js/lazysizes.min.js?v=9c0e65e25f8f098037678ba0c2be1d9f"></script></head><body><div class="container"><header><a class="logo" href="https://dmaristem.github.io/">dmaristem</a><div class="top"><nav class="navbar js-navbar"><button class="navbar__toggle js-navbar__toggle" aria-expanded="false">Menu</button><ul class="navbar__menu"><li><a href="https://dmaristem.github.io/" target="_blank">Blog</a></li></ul></nav><div class="top__search"><form action="https://dmaristem.github.io/search.html" class="search"><input type="search" name="q" placeholder="search..."></form></div></div></header><main><article class="post u-wrapper"><header class="hero"><p class="post__meta">By <a href="https://dmaristem.github.io/authors/maria-duong/" rel="author" title="Maria Duong">Maria Duong</a> Published on <time datetime="2019-11-19T00:45">November 19, 2019</time></p><h1 class="post__title">Pure CSS: Bicyclist Animation</h1></header><figure class="post__featured-image post__image--wide"><img class="lazyload" src="https://dmaristem.github.io/media/posts/2/responsive/pure_css_bicyclist-xs.png" data-srcset="https://dmaristem.github.io/media/posts/2/responsive/pure_css_bicyclist-xs.png 300w ,https://dmaristem.github.io/media/posts/2/responsive/pure_css_bicyclist-sm.png 480w ,https://dmaristem.github.io/media/posts/2/responsive/pure_css_bicyclist-md.png 768w ,https://dmaristem.github.io/media/posts/2/responsive/pure_css_bicyclist-lg.png 1024w ,https://dmaristem.github.io/media/posts/2/responsive/pure_css_bicyclist-xl.png 1360w ,https://dmaristem.github.io/media/posts/2/responsive/pure_css_bicyclist-2xl.png 1600w ,https://dmaristem.github.io/media/posts/2/responsive/pure_css_bicyclist-sm2.png 375w" data-sizes="auto" width="680" height="327" alt="Pure CSS Art"><figcaption>Behold the power of CSS</figcaption></figure><div class="post__entry"><figure class="alignnone size-full wp-image-5709"><img src="https://odetostem.files.wordpress.com/2017/10/cycling.png" data-is-external-image="true" alt="Cycling" width="1763" height="847"></figure><p class="align-center">See <a href="https://codepen.io/dmaristem/full/RLeXXK/" target="_blank" rel="noopener noreferrer">Codepen</a></p><p>My first pure CSS animation! A loose HTML and CSS translation of Dribble shot <a href="https://dribbble.com/shots/2572469-Cycling" target="_blank" rel="noopener noreferrer">"Cycling" by Moncho Massé</a>. I say 'loose' because it wasn't my original intention to do a graphic art to HTML/CSS translation - just wanted to use the warm, gorgeous color palette. Eventually decided to use the original work as replication practice. Based the wheels off of this flat illustration, gotten somewhere off Google Images :</p><figure class="align-center"><img src="https://odetostem.files.wordpress.com/2017/10/white-bike.jpg?w=511" data-is-external-image="true" alt="white bike"></figure><h2>Process:</h2><ol><li>Bike</li><li>Bike Animation</li><li>Girl</li><li>Girl Animation</li></ol><h3>1. Bike</h3><p>I started off with the bike, so that that the girl could later sit on something visible. The stationary but spinning wheels were also a great deal less intimidating to start off with than the moving legs.</p><p><em>a) Wheel<br></em>The wheel was easy to make -- a circle with <strong>background: none </strong>, with a border that acted as the tire, and <strong>box-shadow: inset </strong>as the inner lining of the tire.</p><p>CSS Syntax</p><pre>box-shadow:  h-shadow    v-shadow    blur    spread-color</pre><p>Things to note about box-shadow:</p><ul><li>when all values are 0px, the shadow cannot be seen because it is directly behind its element</li><li>if the element has a border, the box-shadow is contained within this space, regardless of h-shadow or v-shadow values</li></ul><h3>NEW: Sass</h3><p>So I learned the basics of Sass with Dan Cederholm's "Sass for Web Designers," and implemented what I learned for the first time in this project. Seeing that two wheels are needed, I created a mixin for the properties that both wheel elements  would share.</p><figure class="alignnone size-full wp-image-5779"><img src="https://odetostem.files.wordpress.com/2017/10/cycling_mixin_wheel.png" data-is-external-image="true" alt="cycling_mixin_wheel" width="482" height="269"></figure><p>That left the class selectors 'back-wheel' and 'front-wheel', whose only difference was the value of the left position property.</p><figure class="alignnone size-full wp-image-5782"><img src="https://odetostem.files.wordpress.com/2017/10/mixin-back-front-wheels.png" data-is-external-image="true" alt="mixin-back-front-wheels" width="212" height="246"></figure><p>At the time I was just excited to use my newly acquired knowledge of Sass. Looking back at this, I would not have used @mixin.</p><p>The above SCSS code would have compiled to the following in CSS:</p><pre>.wheel {
+  position: absolute; 
+  border-radius:50%; 
+  width: 200px; 
+  height: 200px; 
+  background:black; 
+  border: 12px solid $wheel;
+  box-shadow: inset 20px 500px 0px 10px $wheel-lining;
+  top: 360px; 
+  z-index: 2;
+}
+
+.back-wheel {
+  position: absolute; 
+  border-radius:50%; 
+  width: 200px; 
+  height: 200px; 
+  background:black; 
+  border: 12px solid $wheel;
+  box-shadow: inset 20px 500px 0px 10px $wheel-lining;
+  top: 360px; 
+  z-index: 2;
+ <strong> left: 20px;</strong> 
+}
+
+.front-wheel {
+  position: absolute; 
+  border-radius:50%; 
+  width: 200px; 
+  height: 200px; 
+  background:black; 
+  border: 12px solid $wheel;
+  box-shadow: inset 20px 500px 0px 10px $wheel-lining;
+  top: 360px; 
+  z-index: 2;
+  <strong>left: 440px;</strong> 
+}</pre><p>This generated CSS is not following the <strong>DRY principle.</strong> If mixins are used, the styles in them are duplicated all over the classes.</p><p>Alternative methods:<br>1) I could have used another class named 'wheel' in place of the mixin:</p><p>HTML</p><div class="wheel back-wheel"><figure class="alignnone size-full wp-image-5927"><img src="https://odetostem.files.wordpress.com/2017/10/cycling-html-test.png" data-is-external-image="true" alt="cycling-html-test" width="688" height="79"></figure></div><div class="wheel front-wheel"> </div><p>SCSS</p><pre>.wheel {
+  position: absolute; 
+  border-radius:50%; 
+  width: 200px; 
+  height: 200px; 
+  background:black; 
+  border: 12px solid $wheel;
+  box-shadow: inset 20px 500px 0px 10px $wheel-lining;
+  top: 360px; 
+  z-index: 2;
+}
+
+.back-wheel {
+  left: 20px; 
+}
+
+.front-wheel {
+  left: 440px; 
+}</pre><p>2) I could have also used the <strong>@extend directive</strong> to share CSS properties between these selectors:</p><p>HTML</p><div class="wheel back-wheel"><figure class="alignnone size-full wp-image-5927"><img src="https://odetostem.files.wordpress.com/2017/10/cycling-html-test.png" data-is-external-image="true" alt="cycling-html-test" width="688" height="79"></figure></div><div class="wheel front-wheel"> </div><div class="wheel front-wheel"> </div><p>SCSS</p><pre>.wheel {
+  position: absolute; 
+  border-radius:50%; 
+  width: 200px; 
+  height: 200px; 
+  background:black; 
+  border: 12px solid $wheel;
+  box-shadow: inset 20px 500px 0px 10px $wheel-lining;
+  top: 360px; 
+  z-index: 2;
+}
+
+.back-wheel {
+ <strong> @extend .wheel; </strong>
+  left: 20px; 
+}
+
+.front-wheel {|
+<strong>  @extend .wheel; </strong>
+  left: 440px; 
+}</pre><p>Which compiles to the following in CSS:</p><pre><strong>.wheel, .back-wheel, .front-wheel</strong> {
+  position: absolute; 
+  border-radius:50%; 
+  width: 200px; 
+  height: 200px; 
+  background:black; 
+  border: 12px solid $wheel;
+  box-shadow: inset 20px 500px 0px 10px $wheel-lining;
+  top: 360px; 
+  z-index: 2;
+}
+
+.back-wheel {
+  left: 20px; 
+}
+
+.front-wheel {
+  left: 440px; 
+}</pre><p>Which brings us to the question -- is alternative method #1 or #2 better in this scenario?</p><p>Oh wait, newly in: 3) Using Sass <strong>placeholder selectors </strong>with the @extend directive:</p><pre><strong>%wheel </strong>{
+  position: absolute; 
+  border-radius:50%; 
+  width: 200px; 
+  height: 200px; 
+  background:black; 
+  border: 12px solid $wheel;
+  box-shadow: inset 20px 500px 0px 10px $wheel-lining;
+  top: 360px; 
+  z-index: 2;
+}
+
+.back-wheel {
+<strong>  @extend %wheel;</strong> 
+  left: 20px; 
+}
+
+.front-wheel {
+  <strong>@extend %wheel;</strong>
+  left: 440px; 
+}</pre><p>Which compiles to the following in CSS:</p><pre><strong>.back-wheel, .front-wheel </strong>{
+  position: absolute; 
+  border-radius:50%; 
+  width: 200px; 
+  height: 200px; 
+  background:black; 
+  border: 12px solid $wheel;
+  box-shadow: inset 20px 500px 0px 10px $wheel-lining;
+  top: 360px; 
+  z-index: 2;
+}
+
+.back-wheel {
+  left: 20px; 
+}
+
+.front-wheel {
+  left: 440px; 
+}</pre><ul><li>Placeholder selectors do not show up in the generated CSS!</li><li><a href="https://codepen.io/dmaristem/pen/EwdRGN" target="_blank" rel="noopener noreferrer">The placeholder selector does not have to be an existing class within HTML. </a></li></ul><p>The HTML for the above code is just this:</p><figure class="alignnone size-full wp-image-5930"><img src="https://odetostem.files.wordpress.com/2017/10/cycling-html-test2.png" data-is-external-image="true" alt="cycling-html-test2" width="589" height="76"></figure><p>Therefore, when looking at the generated CSS, alternative method #3) using Sass placeholder selector with @extend directive:</p><ol><li>Simplifies CSS selectors</li><li>Keep properties DRY</li><li>Reduce the class attributes used in HTML</li></ol><p>Which seems like the best method for better maintainability of the code.</p><p>With regards to better overall performance of CSS (and thus the web page?) --- that, I am unsure of. Intuitively I'd yes, there could be a positive effect on performance, but I'm not knowledgeable enough yet to say how and why that would be so. {CHECK} </p><p><strong><em>b) Spokes </em></strong></p><p>Modeled the spokes orientation after the numbers on a clock-face. So the class named '_12-6' is the vertical spoke right in the center of the wheel. Needed 6 spokes in total.</p><p>As for spacing between spokes:  360 degrees (of a circle) divided by 12 (hours on a clock) equals 30 degrees (between each hour on the clock-face).</p><p>Used the @include directive to reference @mixin rotate($deg). I almost reached the same mixin, but was missing the # symbol and {} braces. The generic transform mixin I found online.</p><figure class="alignnone size-full wp-image-5892"><img src="https://odetostem.files.wordpress.com/2017/10/cycling_spokes.png" data-is-external-image="true" alt="cycling_spokes" width="247" height="623"></figure><figure class="alignnone size-full wp-image-5893"><img src="https://odetostem.files.wordpress.com/2017/10/cycling_mixin_rotate.png" data-is-external-image="true" alt="cycling_mixin_rotate" width="381" height="266"></figure><p>The property <strong>background: none </strong>gave the illusion of seeing through the spokes of the wheel to the background.</p><p><strong><em>c) Bike body frame, handlebar, seat, hub, chains, crankset, crank</em></strong></p><p>Just rotating and positioning into place.</p><h3>2. Bike Animation</h3><p><em><strong>a) Cassette &amp; Spokes</strong></em></p><p>I made the cassette (cluster of sprockets on the rear hub) the parent div of all the spokes divs. This way, all I need to rotate is the cassette itself, to give the impression of spinning wheels.</p><p>The <strong>transform-origin</strong> of the cassette is the default 50% 50%, smack-dab in its center, where the spokes' convergence point is fixed.</p><p>Used a mixin for the @keyframes rule (found online) to specify the animation code.</p><figure class="alignnone size-full wp-image-5948"><img src="https://odetostem.files.wordpress.com/2017/10/cycling_generic_animation.png" data-is-external-image="true" alt="cycling_generic_animation" width="414" height="579"></figure><p>{CHECK} Why the # symbol before the animation-name and str?</p><figure class="alignnone size-full wp-image-5953"><img src="https://odetostem.files.wordpress.com/2017/10/cycling_cassette_rotation.png" data-is-external-image="true" alt="cycling_cassette_rotation" width="448" height="200"></figure><p><strong>NOTE:</strong> Used the value 359 and not 360 because degrees in rotate() can only take values in this range: [0, 360).</p><p>To go clockwise (because the bicycle is supposed to be moving from left to right), a negative value (-359 degrees) was used as the starting property value.</p><p>Animation shorthand - CSS Syntax:</p><pre>animation: <i>name duration timing-function delay iteration-count direction fill-mode play-state</i>;</pre><figure class="alignnone size-full wp-image-5970"><img src="https://odetostem.files.wordpress.com/2017/10/cycling_cassette.png" data-is-external-image="true" alt="cycling_cassette" width="469" height="290"></figure><p>In order, here I used:</p><ul><li>rotation --&gt; animation-name (specifies the name of the keyframe to bind to the selector)</li><li>1s --&gt; animation-duration (specifies how many seconds an animation takes to complete)</li><li>infinite --&gt; animation-iteration-count (specifies how many times an animation should be played)</li><li>linear --&gt; animation-timing-function (specifies the speed curve of the animation); linear specifies an animation with the same speed from start to end</li></ul><p>So the order in the given syntax doesn't matter, unless when using both duration and delay.</p><p><em><strong>b) Crank </strong></em></p><p>Had some trouble with transform-origin initially. For some reason, the crank was rotating somewhere way above the crankset. Re-positioned and set transform-origin to 'bottom center'. Could have done 'bottom left', and the result would be the same.</p><p>In the beginning, I made the pedal a child div of crank, and had it rotating with the crank. But the pedal was supposed to be fixed in its original position while rotating. In later iterations, the pedal became a child div of shoe, which allowed it to keep its original orientation while rotating. Yes, a hack, I know.</p><h3>3. Girl</h3><p><em>Pelvic region<br></em>Started off with the pelvic region, so that there was something digitally-tangible sitting on top of the bike seat.</p><p><em>Face </em><br>Would like to point out that the eyes have <strong>background: none</strong>, but<strong> box-shadow: inset </strong>so the curved eye effect exists. Without <strong>inset</strong>, the curve would be flipped to the bottom of the no-background element.</p><p><em>Torso</em><br>Made the right arm div a child element of the chest div. Wanted to make the left arm a child element of chest div as well, but it needed to be behind the chest. A child element would always appear above the parent element, so I had to make a separate div for the left arm, give it a lower z-index than the chest div, and position it appropriately.</p><p>In retrospect, should have made the belly div a child element of chest as well. Same goes for neck (either a child element of chest or head).</p><p>Making child elements like this will make it easier to animate -- just animate the parent div to animate the children divs too.</p><p><em>Legs<br></em>Similarly, the calves became child elements of the thighs.</p><h3>4. Girl Animation</h3><p>The most time-consuming task of all.</p><p>After eyeballing the original animation for a very long time, motion could be broken down into:</p><p><strong><em>a) Thighs</em></strong></p><p>Rotating about ~40-60 degrees continuously, at alternating times to each other. The fixed point of rotation (transform-origin) is on the 'pelvic region' div. The keyframes values were eventually settled through a lot of trial-and-error.</p><p><strong><em>b) Calves </em></strong></p><p><a href="https://codepen.io/dmaristem/pen/Qqrdpr" target="_blank" rel="noopener noreferrer">In the beginning</a>, the calves were not moving on their own, just using motion from the thighs.</p><p>After a lot of <a href="https://codepen.io/dmaristem/pen/xXJxgm" target="_blank" rel="noopener noreferrer">testing</a>, the movement for the right calf was deconstructed to four parts: starting at the 'rest' position, followed by a decrease in degrees (to rotate counter-clockwise; to kick out), the 'rest' position again, and  an increase in degrees (to rotate clockwise; to kick back).</p><p>Again, plenty of trial-and-error and fiddling around with the degree values.</p><p>Still haven't gotten a perfect circular movement.</p><p><strong><em>c) Pelvic region, torso, neck, head</em></strong></p><p><strong>Issue: </strong>Multiple transforms i.e. left arm, neck, belly, were all rotated prior to translation. Applying translation after the rotation made these elements revert back to their original orientation before rotation.</p><p>For example, I could not do this:</p><pre>.l-arm {
+  @include rotate(20); 
+  @include transform(2, 3); 
+}</pre><p>When there are multiple transform directives, only the last one will be applied.</p><p>Without mixins, multiple transforms could be separated with commas i.e.</p><pre>.l-arm {
+transform: translate(1, 2), rotate(50deg); 
+}</pre><p>Couldn't find an already existing mixin for multiple transforms that worked (and couldn't develop one that worked) YET; for the sake of saving time, resorted to this:</p><figure class="alignnone size-full wp-image-6071"><img src="https://odetostem.files.wordpress.com/2017/10/cycling-move-neck.png" data-is-external-image="true" alt="cycling-move-neck" width="544" height="444"></figure><p>An eyesore, but functional.</p><p><strong><em>d) Hair, ground streaks, wind </em></strong></p><p>Used transform: translation. Need to make smoother. Use transitions?</p><h2> </h2><h2>New things learned</h2><ul><li>On my search for dealing with multiple transforms and animations, I discovered that behind all transforms are browser-translated matrices! Yay linear algebra! Need to read further.</li><li>Used Sass (SCSS syntax) for the first time --- variables, mixins, @include directive, @extend directive, placeholder selectors. Really basic. Continue learning more about Sass.</li><li>CSS3 animations</li></ul><p> </p><h2>To be improved</h2><ul><li>Circular motion of calves - still not a perfect 360 degree rotation</li><li>Make the crank in full - connect the crank to the pedal for both feet</li><li>Position the calf on the knee so that when animating, no bumps are seen on the knees</li><li>Smoother animation for wind movement - transitions?</li><li>Create and/or find multiple transforms and multiple animations mixins</li><li>Closer look at keyframes timelines</li><li>Keep track of z-indices</li></ul><p> </p></div><footer class="post__footer"><div class="post__last-updated">This article was updated on November 19, 2019</div><div class="post__footer__col"><ul class="post__tag"><li><a href="https://dmaristem.github.io/animation/">Animation</a></li><li><a href="https://dmaristem.github.io/art/">Art</a></li><li><a href="https://dmaristem.github.io/css/">CSS</a></li></ul><div class="post__share"></div></div><nav class="post__nav"><div class="post__nav__prev">Previous Post<h5><a href="https://dmaristem.github.io/where-are-canadas-cleantech-ventures.html" class="inverse" rel="prev">Where are Canada&#x27;s cleantech ventures?</a></h5></div></nav><div class="post__bio"><div><h3><a href="https://dmaristem.github.io/authors/maria-duong/" class="inverse" title="Maria Duong">Maria Duong</a></h3></div></div></footer></article></main><footer class="footer"><div class="footer__copyright">Powered by Publii</div></footer></div><script defer="defer" src="https://dmaristem.github.io/assets/js/jquery-3.2.1.slim.min.js?v=5f48fc77cac90c4778fa24ec9c57f37d"></script><script defer="defer" src="https://dmaristem.github.io/assets/js/scripts.min.js?v=16be857f09f55a0c76ea5e92e1f5f9d0"></script></body></html>
