@@ -3,7 +3,7 @@
     <title>dmaristem</title>
     <link href="https://dmaristem.github.io/feed.xml" rel="self" />
     <link href="https://dmaristem.github.io" />
-    <updated>2020-03-16T12:34:23-04:00</updated>
+    <updated>2020-03-16T12:41:44-04:00</updated>
     <author>
         <name>Maria Duong</name>
     </author>
@@ -17,14 +17,16 @@
         <link href="https://dmaristem.github.io/translators-without-borders-covid-19-language-mapping-research-wip.html"/>
         <id>https://dmaristem.github.io/translators-without-borders-covid-19-language-mapping-research-wip.html</id>
 
-        <updated>2020-03-16T12:33:43-04:00</updated>
+        <updated>2020-03-16T12:41:32-04:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://dmaristem.github.io/media/posts/3/world-map.PNG" alt="" />
                     (Work-In-Progress) We will pick 8 out of 16 countries to curate spatial&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <img src="https://dmaristem.github.io/media/posts/3/world-map.PNG" alt="" />
                 <p>(Work-In-Progress)<br><br>We will pick 8 out of 16 countries to curate spatial language and literacy data from census and other existing sources. They are countries affected by the COVID-19 outbreak.</p>
 <p>Options (given by TWB):</p>
 <p>Bangladesh, Cambodia, Hong Kong, India, Indonesia, Japan, Laos, Malaysia, Myanmar, Nepal, Philippines, Singapore, South Korea, Taiwan, Thailand, Vietnam.</p>
@@ -50,6 +52,7 @@
 </ol>
 <p>If we’re not pre-emptively mapping, then Myanmar and Laos will not be in our 8 chosen countries. When choosing these countries, data availability must be taken into account, but also the direness of the outbreak (measured by confirmed cases), and the variety of languages that exist within the affected regions – where is there the most need for this language mapping?</p>
 <p>I’m surprised Iran is not in our options list, seeing as they are highly affected, and speak a non-Western language. Perhaps the options list will change with new numbers coming in. <br><br></p>
+<p><em>Note: Horizontal scrolling tables</em></p>
 <p>Table 1: Relevant available data sources by country</p>
 <table>
 <tbody>
