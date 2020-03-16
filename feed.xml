@@ -3,12 +3,408 @@
     <title>dmaristem</title>
     <link href="https://dmaristem.github.io/feed.xml" rel="self" />
     <link href="https://dmaristem.github.io" />
-    <updated>2019-11-24T17:46:27-05:00</updated>
+    <updated>2020-03-16T12:34:23-04:00</updated>
     <author>
         <name>Maria Duong</name>
     </author>
     <id>https://dmaristem.github.io</id>
 
+    <entry>
+        <title>Translators without Borders : Covid-19 language mapping research (WIP)</title>
+        <author>
+            <name>Maria Duong</name>
+        </author>
+        <link href="https://dmaristem.github.io/translators-without-borders-covid-19-language-mapping-research-wip.html"/>
+        <id>https://dmaristem.github.io/translators-without-borders-covid-19-language-mapping-research-wip.html</id>
+
+        <updated>2020-03-16T12:33:43-04:00</updated>
+            <summary>
+                <![CDATA[
+                    (Work-In-Progress) We will pick 8 out of 16 countries to curate spatial&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>(Work-In-Progress)<br><br>We will pick 8 out of 16 countries to curate spatial language and literacy data from census and other existing sources. They are countries affected by the COVID-19 outbreak.</p>
+<p>Options (given by TWB):</p>
+<p>Bangladesh, Cambodia, Hong Kong, India, Indonesia, Japan, Laos, Malaysia, Myanmar, Nepal, Philippines, Singapore, South Korea, Taiwan, Thailand, Vietnam.</p>
+<p>Covid-19 cases data sources, as of March 16, 2020, 11am EDT:</p>
+<p> From WHO: <a href="https://experience.arcgis.com/experience/685d0ace521648f8a5beeeee1b9125cd">https://experience.arcgis.com/experience/685d0ace521648f8a5beeeee1b9125cd</a></p>
+<p>From the Hong Kong government: <a href="https://www.chp.gov.hk/files/pdf/statistics_of_the_cases_novel_coronavirus_infection_en.pdf">https://www.chp.gov.hk/files/pdf/statistics_of_the_cases_novel_coronavirus_infection_en.pdf</a> </p>
+<ol>
+<li>Republic of Korea: 8162</li>
+<li>Japan: 780</li>
+<li>Malaysia: 238</li>
+<li>Singapore: 226</li>
+<li>Hong Kong: 156 * (from Hong Kong government website)</li>
+<li>Philippines: 140</li>
+<li>Indonesia: 117</li>
+<li>Thailand: 114</li>
+<li>India: 107</li>
+<li>Taiwan: 59 * (from Hong Kong government website)</li>
+<li>Vietnam: 53</li>
+<li>Cambodia: 7</li>
+<li>Bangladesh: 3</li>
+<li>Nepal: 1</li>
+<li>Myanmar, Laos: 0</li>
+</ol>
+<p>If we’re not pre-emptively mapping, then Myanmar and Laos will not be in our 8 chosen countries. When choosing these countries, data availability must be taken into account, but also the direness of the outbreak (measured by confirmed cases), and the variety of languages that exist within the affected regions – where is there the most need for this language mapping?</p>
+<p>I’m surprised Iran is not in our options list, seeing as they are highly affected, and speak a non-Western language. Perhaps the options list will change with new numbers coming in. <br><br></p>
+<p>Table 1: Relevant available data sources by country</p>
+<table>
+<tbody>
+<tr>
+<td width="102">
+<p>Country</p>
+</td>
+<td width="189">
+<p>Data Sources</p>
+</td>
+<td width="151">
+<p>Attributes of Interest</p>
+</td>
+<td width="85">
+<p>Notes</p>
+</td>
+</tr>
+<tr>
+<td width="102">
+<p>South Korea</p>
+</td>
+<td width="189">
+<p> </p>
+</td>
+<td width="151">
+<p> </p>
+</td>
+<td width="85">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="102">
+<p>Japan</p>
+</td>
+<td width="189">
+<p> </p>
+</td>
+<td width="151">
+<p> </p>
+</td>
+<td width="85">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="102">
+<p>Singapore</p>
+</td>
+<td width="189">
+<p>Census Population 2010 (t1-3.xls)</p>
+<p> </p>
+<p>General Household Survey 2015 (t1-9xls) – Tables: Resident Population by Single Year of Age, Ethnic Group and Sex; Chinese Resident Population by Age Group, Dialect Group and Sex; Malay Resident Population by Age Group, Dialect Group and Sex; Indian Resident Population by Age Group, Dialect Group and Sex; Resident Population of Other Ethnic Groups by Age Group, Ethnic Group and Sex; Resident Population by Planning Area/Subzone by Age Group and Sex</p>
+<p> </p>
+<p>Population and Population Structure, 2019: <a href="https://www.singstat.gov.sg/find-data/search-by-theme/population/population-and-population-structure/latest-data">https://www.singstat.gov.sg/find-data/search-by-theme/population/population-and-population-structure/latest-data</a></p>
+<p> </p>
+</td>
+<td width="151">
+<p>Planning Area/Subzone (Resident population by planning area/subzone, ethnic group, and sex)</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>Ethnic Group, Dialect Group, Subzone</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>Total Population</p>
+</td>
+<td width="85">
+<p>Missing Dialect Group for each subzone; Dialect group of ‘others’</p>
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="102">
+<p>Malaysia</p>
+</td>
+<td width="189">
+<p>Census 2010</p>
+</td>
+<td width="151">
+<p> </p>
+</td>
+<td width="85">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="102">
+<p>Hong Kong</p>
+</td>
+<td width="189">
+<p>Use of Language in Hong Kong in 2018</p>
+<p>censtatd.gov.hk/hkstat/sub/sp140.jsp?productCode=FA100270</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>Population and Household Statistics Analysed by District Council District (18): <a href="https://www.censtatd.gov.hk/hkstat/sub/sp150.jsp?productCode=B1130301">https://www.censtatd.gov.hk/hkstat/sub/sp150.jsp?productCode=B1130301</a></p>
+<p> </p>
+</td>
+<td width="151">
+<p>Perceived Language Competence in using _____</p>
+<p> </p>
+<p> </p>
+</td>
+<td width="85">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="102">
+<p>India</p>
+</td>
+<td width="189">
+<p><a href="http://censusindia.gov.in/2011Census/C-16_25062018_NEW.pdf">http://censusindia.gov.in/2011Census/C-16_25062018_NEW.pdf</a></p>
+<p> </p>
+</td>
+<td width="151">
+<p> </p>
+</td>
+<td width="85">
+<p>‘Mother tongue’ reporter, but not the language of fluency.</p>
+</td>
+</tr>
+<tr>
+<td width="102">
+<p>Thailand</p>
+</td>
+<td width="189">
+<p> </p>
+</td>
+<td width="151">
+<p> </p>
+</td>
+<td width="85">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="102">
+<p>Taiwan</p>
+</td>
+<td width="189">
+<p><a href="https://eng.stat.gov.tw/lp.asp?ctNode=1628&amp;CtUnit=778&amp;BaseDSD=7&amp;mp=5">https://eng.stat.gov.tw/lp.asp?ctNode=1628&amp;CtUnit=778&amp;BaseDSD=7&amp;mp=5</a></p>
+<p> </p>
+</td>
+<td width="151">
+<p> </p>
+</td>
+<td width="85">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="102">
+<p>Vietnam</p>
+</td>
+<td width="189">
+<p> </p>
+</td>
+<td width="151">
+<p> </p>
+</td>
+<td width="85">
+<p> </p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><br> </p>
+<p>Table 2: Known languages within each country</p>
+<table>
+<tbody>
+<tr>
+<td width="208">
+<p>Country</p>
+</td>
+<td width="208">
+<p>OLAC catalog of languages spoken in this country (ISO 639-3 code)</p>
+<p> </p>
+</td>
+<td width="208">
+<p>Languages mentioned in Census</p>
+</td>
+</tr>
+<tr>
+<td width="208">
+<p>South Korea</p>
+</td>
+<td width="208">
+<p> </p>
+</td>
+<td width="208">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="208">
+<p>Japan</p>
+</td>
+<td width="208">
+<p> </p>
+</td>
+<td width="208">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="208">
+<p>Singapore</p>
+</td>
+<td width="208">
+<p>-          Baba Malay (mbf)</p>
+<p>-          Bengali (ben)</p>
+<p>-          English (eng)</p>
+<p>-          Gujarati (guj)</p>
+<p>-          Hakka Chinese (hak)</p>
+<p>-          Hindi (hin)</p>
+<p>-          Javanese (jav)</p>
+<p>-          Madurese (mad)</p>
+<p>-          Malay (zlm)</p>
+<p>-          Malayalam (mal)</p>
+<p>-          Mandarin Chinese (cmn)</p>
+<p>-          Min Bei Chinese (mnp)</p>
+<p>-          Min Dong Chinese (cdo)</p>
+<p>-          Min Nan Chinese (nan)</p>
+<p>-          Orang Seletar (ors)</p>
+<p>-          Panjabi (pan)</p>
+<p>-          Pu-Xian Chinese (cpx)</p>
+<p>-          Sindhi (snd)</p>
+<p>-          Yue Chinese (yue)</p>
+<p>-          Telugu (tel)</p>
+<p>-          Tamil (tam)</p>
+<p>-          Standard Malay (zsm)</p>
+<p>-          Sinhala (sin)</p>
+<p>-          Singapore Sign Language (sls)</p>
+<p> </p>
+<p>language-archives.org/country/SG</p>
+<p> </p>
+<p>blue highlight – exact name match</p>
+</td>
+<td width="208">
+<p>Ethnic Group: Dialect Groups</p>
+<p> </p>
+<p>Chinese:</p>
+<p>-          Hokkien</p>
+<p>-          Teochew</p>
+<p>-          Cantonese</p>
+<p>-          Hakka</p>
+<p>-          Hainanese</p>
+<p>-          Foochow</p>
+<p>-          Henghua</p>
+<p>-          Shanghainese (Wu?)</p>
+<p>-          Hokchia</p>
+<p>-          Other Chinese</p>
+<p> </p>
+<p>Malay:</p>
+<p>-          Malay</p>
+<p>-          Javanese</p>
+<p>-          Boyanese</p>
+<p>-          Other Malays</p>
+<p> </p>
+<p>India</p>
+<p>-          Tamil</p>
+<p>-          Malayalee</p>
+<p>-          Hindi</p>
+<p>-          Sikh</p>
+<p>-          Punjabi</p>
+<p>-          Urdu</p>
+<p>-          Hindustani</p>
+<p>-          Gujarati</p>
+<p>-          Sindhi</p>
+<p>-          Sinhalese</p>
+<p>-          Other Indians</p>
+<p> </p>
+<p>Other Ethnic groups:</p>
+<p>-          Filipino</p>
+<p>-          Caucasian</p>
+<p>-          Eurasian</p>
+<p>-          Arab</p>
+<p>-          Thai</p>
+<p>-          Japanese</p>
+<p>-          Others</p>
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="208">
+<p>Malaysia</p>
+</td>
+<td width="208">
+<p> </p>
+</td>
+<td width="208">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="208">
+<p>Hong Kong</p>
+</td>
+<td width="208">
+<p> </p>
+</td>
+<td width="208">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="208">
+<p>India</p>
+</td>
+<td width="208">
+<p> </p>
+</td>
+<td width="208">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="208">
+<p>Thailand</p>
+</td>
+<td width="208">
+<p> </p>
+</td>
+<td width="208">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="208">
+<p>Vietnam</p>
+</td>
+<td width="208">
+<p> </p>
+</td>
+<td width="208">
+<p> </p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Pure CSS: Bicyclist Animation</title>
         <author>
