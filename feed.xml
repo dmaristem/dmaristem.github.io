@@ -3,7 +3,7 @@
     <title>dmaristem</title>
     <link href="https://dmaristem.github.io/feed.xml" rel="self" />
     <link href="https://dmaristem.github.io" />
-    <updated>2021-07-19T00:45:53-04:00</updated>
+    <updated>2021-07-19T00:48:28-04:00</updated>
     <author>
         <name>Maria Duong</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://dmaristem.github.io/pure-css-bicyclist-animation.html"/>
         <id>https://dmaristem.github.io/pure-css-bicyclist-animation.html</id>
 
-        <updated>2021-07-19T00:45:44-04:00</updated>
+        <updated>2021-07-19T00:48:13-04:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://dmaristem.github.io/media/posts/2/css_cyclist.PNG" alt="" />
@@ -28,7 +28,7 @@
             <![CDATA[
                     <img src="https://dmaristem.github.io/media/posts/2/css_cyclist.PNG" alt="" />
                 <p class="align-center"> See Animation on <a href="https://codepen.io/dmaristem/full/RLeXXK/" target="_blank" rel="noopener noreferrer">Codepen</a> </p>
-<p>This was my first pure CSS animation, a loose HTML and CSS translation of Dribble shot <a href="https://dribbble.com/shots/2572469-Cycling" target="_blank" rel="noopener noreferrer">"Cycling" by Moncho Massé</a>. JavaScript's powerful animation capabilities are so well-known and well-loved, that CSS' features can often be overlooked. This was a challenge to see how far I could push animation with just CSS - it was great fun, and I am very happy with the result. Here's a breakdown of my process.</p>
+<p>This was my first pure CSS animation, a loose HTML and CSS translation of Dribble shot <a href="https://dribbble.com/shots/2572469-Cycling" target="_blank" rel="noopener noreferrer">"Cycling" by Moncho Massé</a>. JavaScript's powerful animation capabilities are so well-known and well-loved, that CSS' features can often be overlooked. This was a challenge to see how far I could push animation with just CSS - the answer is, surprisingly far indeed. Tt was great fun, and I am very happy with the result. Here's a breakdown of my process.</p>
 <p>I needed a reference image for the bike, and decided on the following one, found in Google Images, for its relatively simple design and clear lines. </p>
 <p><img class="align-center" src="https://odetostem.files.wordpress.com/2017/10/white-bike.jpg?w=511" alt="white bike"></p>
 <h2 id="mcetoc_1dq12rgl50">Process:</h2>
