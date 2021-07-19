@@ -3,7 +3,7 @@
     <title>dmaristem</title>
     <link href="https://dmaristem.github.io/feed.xml" rel="self" />
     <link href="https://dmaristem.github.io" />
-    <updated>2021-07-19T00:50:48-04:00</updated>
+    <updated>2021-07-19T00:54:01-04:00</updated>
     <author>
         <name>Maria Duong</name>
     </author>
@@ -17,17 +17,17 @@
         <link href="https://dmaristem.github.io/pure-css-bicyclist-animation.html"/>
         <id>https://dmaristem.github.io/pure-css-bicyclist-animation.html</id>
 
-        <updated>2021-07-19T00:50:41-04:00</updated>
+        <updated>2021-07-19T00:53:44-04:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://dmaristem.github.io/media/posts/2/css_cyclist.PNG" alt="" />
-                     See Animation on Codepen This was my first pure CSS animation, a loose&hellip;
+                     See Animation on Codepen This was my first pure CSS animation, a&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <img src="https://dmaristem.github.io/media/posts/2/css_cyclist.PNG" alt="" />
-                <p class="align-center"> See Animation on <a href="https://codepen.io/dmaristem/full/RLeXXK/" target="_blank" rel="noopener noreferrer">Codepen</a> </p>
+                <p class="align-center"> See Animation on <a href="https://codepen.io/dmaristem/pen/RLeXXK">Codepen </a></p>
 <p>This was my first pure CSS animation, a loose HTML and CSS translation of Dribble shot <a href="https://dribbble.com/shots/2572469-Cycling" target="_blank" rel="noopener noreferrer">"Cycling" by Moncho Massé</a>. JavaScript's powerful animation capabilities are so well-known and well-loved, that CSS' features can often be overlooked. This was a challenge to see how far I could push animation with just CSS - the answer is, surprisingly far indeed. It was great fun, and I am very happy with the result. Here's a breakdown of my process.</p>
 <p>I needed a reference image for the bike, and decided on the following one, found in Google Images, for its relatively simple design and clear lines. </p>
 <p><img class="align-center" src="https://odetostem.files.wordpress.com/2017/10/white-bike.jpg?w=511" alt="white bike"></p>
